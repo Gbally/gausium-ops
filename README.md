@@ -1,4 +1,11 @@
-# Gausium Ops — PyQt6 Desktop App
+# 🤖 Gausium Ops — PyQt6 Desktop App
+
+[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![PyQt6](https://img.shields.io/badge/GUI-PyQt6-41cd52.svg)](https://pypi.org/project/PyQt6/)
+[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)](#-requirements)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+![Status](https://img.shields.io/badge/status-exploration%20tool-orange.svg)
+![Not for production](https://img.shields.io/badge/use-not%20for%20production-red.svg)
 
 A dark, native-feeling desktop app to control and monitor Gausium cleaning robots. Built with Python + PyQt6, no Electron, no browser.
 
@@ -9,23 +16,23 @@ A dark, native-feeling desktop app to control and monitor Gausium cleaning robot
 > affiliated with or endorsed by Gausium. Use it against real robots at your own
 > risk, and review what each command does before sending it.
 
-## Features
+## ✨ Features
 
 | Pane | What it does |
 |---|---|
-| **Fleet** | Lists all robots under your account — online status, model, software version. Click Select to target one. |
-| **Live status** | Battery, operating mode, current map, consumables health, and a colour-coded **health banner**. Stop / Pause / Resume + **Return to charging**. Auto-refreshes on a configurable interval. |
-| **Launch task** | Loads the robot's maps & areas, picks map + area + cleaning mode, sends a task with live payload preview. |
-| **Live map** | Plots the robot's live position on the real floor-plan map, with its travelled-path trail. Start/stop monitoring. |
-| **Reports** | Date-range task history — KPI cards, area-cleaned and battery-used bar charts, and a full task list. |
-| **API console** | Send any API request with the live token and inspect the raw response — handy for debugging. |
-| **Activity log** | Timestamped record of every API call and response. |
+| 🤖 **Fleet** | Lists all robots under your account — online status, model, software version. Click Select to target one. |
+| 📊 **Live status** | Battery, operating mode, current map, consumables health, and a colour-coded **health banner**. Stop / Pause / Resume + **Return to charging**. Auto-refreshes on a configurable interval. |
+| 🚀 **Launch task** | Loads the robot's maps & areas, picks map + area + cleaning mode, sends a task with live payload preview. |
+| 🗺️ **Live map** | Plots the robot's live position on the real floor-plan map, with its travelled-path trail. Start/stop monitoring. |
+| 📈 **Reports** | Date-range task history — KPI cards, area-cleaned and battery-used bar charts, and a full task list. |
+| 🧪 **API console** | Send any API request with the live token and inspect the raw response — handy for debugging. |
+| 📜 **Activity log** | Timestamped record of every API call and response. |
 
-Plus cross-platform **desktop notifications** on robot state changes (e.g. task finished).
+Plus cross-platform 🔔 **desktop notifications** on robot state changes (e.g. task finished).
 
 ---
 
-## Requirements
+## 📦 Requirements
 
 - **macOS or Linux** for the `launch.sh` helper (bash). On **Windows**, create a
   venv and run `python gausium_ops.py` (see below).
@@ -35,7 +42,7 @@ No other installation needed — `launch.sh` handles the virtual environment and
 
 ---
 
-## First run
+## 🚀 First run
 
 ```bash
 # In Terminal, cd to this folder, then:
@@ -51,7 +58,7 @@ bash launch.sh
 
 ---
 
-## Connecting
+## 🔌 Connecting
 
 The app performs the OAuth handshake for you — there's no manual token step.
 
@@ -69,7 +76,7 @@ See **[DOCUMENTATION.md](DOCUMENTATION.md)** for the full user guide and
 
 ---
 
-## Files
+## 🗂️ Files
 
 ```
 gausium-ops-pyqt/
