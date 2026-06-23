@@ -16,6 +16,8 @@ A dark, native-feeling desktop app to control and monitor Gausium cleaning robot
 > affiliated with or endorsed by Gausium. Use it against real robots at your own
 > risk, and review what each command does before sending it.
 
+<img width="1229" height="746" alt="Untitled" src="https://github.com/user-attachments/assets/3a45dde3-ee2f-4238-b0de-d3fdd24e86ae" />
+
 ## ✨ Features
 
 | Pane | What it does |
