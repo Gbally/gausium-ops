@@ -1,4 +1,4 @@
-# 🤖 Gausium Ops — PyQt6 Desktop App
+# 🤖 Gausium Ops — PyQt6 Desktop App 🤖
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![PyQt6](https://img.shields.io/badge/GUI-PyQt6-41cd52.svg)](https://pypi.org/project/PyQt6/)
@@ -71,7 +71,7 @@ The app performs the OAuth handshake for you — there's no manual token step.
    - **Client secret** → `ClientSecret`
    - **Open access key** → **`AccessKeySecret`**  *(not the AccessKeyID)*
 3. Click **⚡ Connect**. The app fetches and auto-renews the token; your
-   credentials are saved locally to `~/.gausium_ops/credentials.json` (never committed).
+   credentials are saved locally to `~/.gausium_ops/credentials.json`.
 
 See **[DOCUMENTATION.md](DOCUMENTATION.md)** for the full user guide and
 **[API_REQUESTS.md](API_REQUESTS.md)** for the raw request/response reference.
